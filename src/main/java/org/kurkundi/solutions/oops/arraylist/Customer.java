@@ -1,4 +1,4 @@
-package org.kurkundi.solutions.collections.oops;
+package org.kurkundi.solutions.oops.arraylist;
 
 public class Customer {
     private String name;
