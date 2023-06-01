@@ -1,4 +1,4 @@
-package org.kurkundi.solutions.datastructures.arrays;
+package org.kurkundi.solutions.collections.arrays;
 
 public class Student {
     String name;
