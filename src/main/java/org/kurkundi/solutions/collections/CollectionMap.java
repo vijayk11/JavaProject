@@ -22,14 +22,14 @@ public class CollectionMap {
         LinkedHashMap<String,Integer> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("A",25);
         linkedHashMap.put("Z",50);
-        linkedHashMap.put("s",11);
-        System.out.println(linkedHashMap); //{A=25, Z=50, s=11}
+        linkedHashMap.put("S",11);
+        System.out.println(linkedHashMap); //{A=25, Z=50, S=11}
 
         TreeMap<String, Integer> treeMap = new TreeMap<>();
         treeMap.put("A",25);
         treeMap.put("Z",50);
-        treeMap.put("s",11);
-        System.out.println(treeMap);
+        treeMap.put("S",11);
+        System.out.println(treeMap); //{A=25, S=11, Z=50}
 
 
 
