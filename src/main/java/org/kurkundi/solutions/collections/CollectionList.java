@@ -14,6 +14,13 @@ public class CollectionList {
     }
 
     public static void main(String[] args){
+
+        List list= new ArrayList<>();
+        list.add(1);
+        list.add("vj");
+        System.out.println(list); //[1, vj]
+
+
         List<String> fruits = List.of("Apple","Mango");
         System.out.println(fruits.size());
         // fruits.add("fruit"); -> Exception bcz Immutable
@@ -29,5 +36,6 @@ public class CollectionList {
         numbers.add(Integer.valueOf(15));
         numbers.add(Integer.valueOf("12"));
         System.out.println(numbers);
+
     }
 }
